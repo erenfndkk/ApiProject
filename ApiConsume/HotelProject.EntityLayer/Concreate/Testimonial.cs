@@ -15,3 +15,4 @@ namespace HotelProject.EntityLayer.Concreate
         public string Image { get; set; }
     }
 }
+   
