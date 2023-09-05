@@ -3,7 +3,7 @@
 namespace HotelProject.WebUI.Dtos.RegisterDto
 {
     public class CreateNewUserDto
-    {
+     {
         [Required(ErrorMessage = "Lütfen isim giriniz")]
         public string Name { get; set; }
 
