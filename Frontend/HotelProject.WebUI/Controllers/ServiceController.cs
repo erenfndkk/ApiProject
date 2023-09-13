@@ -84,7 +84,6 @@ namespace HotelProject.WebUI.Controllers
             var client = _httpClientFactory.CreateClient();
             var jsonData = JsonConvert.SerializeObject(model);
             StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
-
             var responseMessage = await client.PutAsync("http://localhost:5103/api/Service/", content);
             if (responseMessage.IsSuccessStatusCode)
             {

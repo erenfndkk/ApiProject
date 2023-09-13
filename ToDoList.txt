@@ -1,3 +1,4 @@
-api test ve swagger
-tema ekleme		
-register-login
+Onay bekliyor
+onaylandý
+iptal edildi
+bekletildi  
